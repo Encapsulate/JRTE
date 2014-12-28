@@ -73,14 +73,9 @@ Yb        dP 8           w      .d88b.                       w  w          dP"Yb
 
 #pragma once
 #include "Stdafx.h"
-#include <iostream>
-#include <Windows.h>
-#include <jni.h>
-#include "C:\Program Files (x86)\SN Systems\PS3\sdk\include\ps3tmapi.h"
-#include "JTmap.h"
-#include <stdio.h>
-#include "PS3.h"
-#include <vector>
+#include <jni.h> //You will need to add this in your project as a dependency, Google should help.
+#include "C:\Program Files (x86)\SN Systems\PS3\sdk\include\ps3tmapi.h" //YOU NEED ps3tmapi.h - This is not mine to give out, so you will have to find your own way of obtaining it... I recommend the Sony SDK or my pastebin... http://www.pastebin.com/u/BaSs_HaXoR
+#include "JTmap.h" //
 
 int target=0xfffffffe; //target default
 unsigned int pid; //This is a decimal value of your ProcessID, Convert to HEX if to see (Thanks to Milky4444 for clearing that up)
