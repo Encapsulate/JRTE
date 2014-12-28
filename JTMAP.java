@@ -7,6 +7,7 @@ public class JTmap {
 	public void init()
 	{
 			System.loadLibrary("PS3JTMAPIDLL"); //This is the library made from the C++ header -> JTMAPI.h
+			//PS3JTMAPIDLL.dll needs to be in the same directory as the .java class (this)).
 			System.out.println("Successfully Loaded Library!");
 	}
 
