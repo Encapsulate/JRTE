@@ -12,6 +12,7 @@ IF YOU CHOOSE TO USE ANY OF THE SOURCES PROVIDED HERE, YOU MUST PROVIDE ANY AND 
 
 I highly urge anyone to provide their collaboration to this project, as their is a lot of unfinished code.
 
-WHAT NEEDS TO BE DONE: The JNI conversions for Java to C++ DataTypes and Visa-Versa. [UNFINISHED]
+WHAT NEEDS TO BE DONE: 
+-) The JNI conversions for Java to C++ DataTypes and Visa-Versa. [UNFINISHED]
 
 *If you would like to add any of your modifications to this project, contact me on Skype: MichealWeston7
