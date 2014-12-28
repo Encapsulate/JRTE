@@ -13,7 +13,7 @@ public class Javdathoe {
 	 */
 	
  	 private static ServerSocket serverSocket;
-   private static Socket clientSocket;
+         private static Socket clientSocket;
 	 private static InputStreamReader inputStreamReader;
 	 private static BufferedReader bufferedReader;
 	 private static String message;
