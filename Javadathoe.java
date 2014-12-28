@@ -20,21 +20,16 @@ public class Javdathoe {
 	 static JTmap PS3 = new JTmap();
 	 public static void main(String[] args) {
 	try {
-			System.out.println("Computer IP: " + Inet4Address.getLocalHost().getHostAddress());
-		} catch (UnknownHostException e1) {
+	System.out.println("Computer IP: " + Inet4Address.getLocalHost().getHostAddress());
+	} 
+	catch (UnknownHostException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
-		}	
-		/* JTmap PS3 = new JTmap();
-			 PS3.init();//LOAD LIB
-		 	 PS3.Connect(); //connects to ps3
-			 PS3.Attach(); //attaches to Ps3 process (game memory)
-			 PS3.SetMemory(0x1BBBC2C, new byte[] {0x12, 0x13, 0x14, 0x15}, 4); //ex 1
-			 PS3.SetMemory(0x1BBBC2C, new byte[] {0x01, 0x02, 0x03 }, 3); //ex 2
-	  	 PS3.WriteString(0x1BBBC2C, "^2Hello ^3From ^5Java!"); //ex 3
-*/
-			int port = 1337;
-		try {
+	}
+	
+	int port = 1337; //THIS IS THE PORT YOUR ANDROID DEVICE IS COMMUNICATING THROUGH.
+	
+	try {
             serverSocket = new ServerSocket(port);  //Server socket
  
         } catch (IOException e) {
@@ -83,7 +78,7 @@ public class Javdathoe {
                 clientSocket.close();
  
             } catch (IOException ex) {
-                System.out.println("Problem in message reading");
+                System.out.println("Problem reading message!");
             }
         }
 	}
