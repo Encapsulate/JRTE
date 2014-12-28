@@ -1,4 +1,4 @@
- //NOTE* Some of this code used was derived from my TMAPI C++ library that I made which can be found here:
+ //NOTE* Some of this code used was derived from my TMAPI C++ library that I made which can be found here: https://pastebin.com/q82R2VSU
  //Credits to Sony Entertainment Developers and Sony Entertainment in general.
  //Sony - TMAPI.lib and TMAPI.h for Target Manager API for C++ interactions with the PS3 Console.
  
