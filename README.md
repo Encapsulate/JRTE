@@ -15,3 +15,5 @@ I highly urge anyone to provide their collaboration to this project, as their is
 WHAT NEEDS TO BE DONE: The JNI conversions for Java to C++ DataTypes and Visa-Versa. [UNFINISHED]
 
 *If you would like to add any of your modifications to this project, contact me on Skype: MichealWeston7
+
+*Sources Direct Download here: https://pastebin.com/6Agia8R2
